@@ -1,0 +1,103 @@
+@import 'reset.css';
+@import 'vars.css';
+@import 'fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Blocks */
+@import 'blocks/header.css';
+@import 'blocks/main.css';
+@import 'blocks/buttons/btnMain.css';
+@import 'blocks/buttons/btnSecond.css';
+@import 'blocks/hero.css';
+@import 'blocks/affiliate.css';
+@import 'blocks/features.css';
+@import 'blocks/testimonials.css';
+@import 'blocks/bottom.css';
+
+body {
+  position: relative;
+  color: var(--white);
+  background-color: var(--background);
+  font-family: "MTN Brighter Sans", sans-serif;
+}
+
+a {
+  color: var(--white);
+}
+
+svg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.containerFirst {
+  max-width: 1125px;
+  margin: auto;
+}
+
+.containerSecond {
+  max-width: 946px;
+  margin: auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Titles */
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.big-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/* Accents */
+.accent-pink {
+  background-color: var(--accent-pink);
+}
+
+.accent-blue {
+  background-color: var(--accent-blue);
+}
+
+.accent-purple {
+  background-color: var(--accent-purple);
+}
+
+.accent-white {
+  color: var(--dark-purple);
+  background-color: var(--white);
+}
+
+/* Orders */
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+/* Scroll */
+::-webkit-scrollbar{
+  width: 6px;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  border-radius: 12px;
+
+  background-color: var(--dark);
+}

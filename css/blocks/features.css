@@ -1,0 +1,38 @@
+.features {
+  margin-top: 190px;
+}
+
+.features__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 175px;
+}
+
+.features__item {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.features__item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.features__item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.features__item-title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.features__item-subtitle {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-weight: 200;
+  font-family: MTN Brighter Sans;
+  src: url('../fonts/MTNBrighterSans-ExtraLight.ttf');
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: MTN Brighter Sans;
+  src: url('../fonts/MTNBrighterSans-Light.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: MTN Brighter Sans;
+  src: url('../fonts/MTNBrighterSans-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: MTN Brighter Sans;
+  src: url('../fonts/MTNBrighterSans-Medium.ttf');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: MTN Brighter Sans;
+  src: url('../fonts/MTNBrighterSans-Bold.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: MTN Brighter Sans;
+  src: url('../fonts/MTNBrighterSans-ExtraBold.ttf');
+}

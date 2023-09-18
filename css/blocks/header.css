@@ -1,0 +1,21 @@
+.header {
+  padding: 30px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__item {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Outfit', sans-serif;
+}

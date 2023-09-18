@@ -1,0 +1,35 @@
+.affiliate {
+  margin-top: 120px;
+}
+
+.affiliate__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.affiliate__block {
+  padding: 20px;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--gray-back);
+}
+
+.affiliate__items {
+  max-width: 866px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.affiliate__item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

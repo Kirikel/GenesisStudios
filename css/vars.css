@@ -1,0 +1,16 @@
+:root {
+  --white: #fff;
+  --dark: #121212;
+  --gray: #8a8a8a;
+  --dark-purple: #311b52;
+
+  --accent-pink: #d50138; 
+  --accent-blue: #0026ff;
+  --accent-purple: #7502a3;
+
+  --gray-back: rgba(255, 255, 255, 0.10);
+  --blue-back: rgba(0, 38, 255, 0.30);
+
+  --gradient: linear-gradient(95deg, rgba(0, 117, 255, 0.47) 1.06%, rgba(231, 0, 111, 0.41) 101.51%);
+  --background: #000;
+}
